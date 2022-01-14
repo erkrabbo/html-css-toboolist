@@ -4,28 +4,65 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #f6f8f9;
+}
+
 header{
     background-color: white;
 }
 
 .tool_logo_name *{
+    width: 20%;
     vertical-align: middle;
     margin: 10px;
     margin-right: 0;
 }
 
 .logo{
-    /* vertical-align:middle; */
+   max-width: 50px;
 }
 .toolname{
-    /* vertical-align: middle; */
-    display: inline;
+    display: inline-block;
     margin-left: 0;
     font-size: 2.5rem;
     font-family:'Be Vietnam Pro', sans-serif;
     font-weight: 800;
 }
 
-body{
-    background-color: #f6f8f9;
+.container{
+    width: 100vh;
+    padding: 10px 40px;
+    padding-right: 40vh;
+    margin: 0 auto;
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 20px;
+
+}
+
+.action{
+    width:fit-content;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: lightskyblue;
+    border-style: none;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 8px;
+}
+.action.bianco{
+    border: 1px solid lightgrey;
+    background-color: white;
+    color: lightgrey
+}
+
+.attività{
+    margin-top: 2px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;  
 }
