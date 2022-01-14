@@ -97,3 +97,21 @@ header{
     border-radius: 5px;
 }
 
+.allineamento{
+    margin-bottom: 20px;
+}
+
+.attività{
+    margin-bottom: 10px;
+}
+
+.listaNo{
+    border: 1px solid red;
+    border-radius: 50%;
+    color:red;
+    font-size: 15px;
+}
+
+.blu{
+    background-color: blue;
+}
