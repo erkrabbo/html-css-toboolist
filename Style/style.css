@@ -33,9 +33,8 @@ body{
 }
 
 .container{
-    width: 100vh;
+    width: 60vw;
     padding: 10px 40px;
-    padding-right: 40vh;
     margin: 0 auto;
     background-color: white;
     border-top-left-radius: 5px;
