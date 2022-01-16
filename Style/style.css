@@ -10,7 +10,7 @@ body{
     vertical-align: middle;
 }
 
-header{
+.tool_logo_name{
     background-color: white;
 }
 
@@ -47,13 +47,13 @@ header{
 .action{
     width:fit-content;
     padding: 5px;
+    border-style: none;
     border-radius: 5px;
     background-color: lightskyblue;
-    border-style: none;
     color: white;
     font-weight: bold;
     display: inline-block;
-    font-size: 8px;
+    font-size: 10px;
 }
 .action.bianco{
     border: 1px solid lightgrey;
@@ -76,41 +76,64 @@ header{
 
 .titolo-attività{
     display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
 }
 
-/* .allineamento.simbolo .titolo-attività .attività{
-    line-height: 1;
-    vertical-align: middle;
-} */
-
-.listaSi{
-    border: 1px solid green;
+.lista{
+    border: 1px solid;
     border-radius: 50%;
-    color:green;
     font-size: 15px;
 }
+
+.Si{
+    border-color: green;
+    color:green;
+}
+
+.No{
+    border-color: red;
+    color:red;
+}
+
 .things{
     margin-left: 10px;
     margin-right: 10px;
-}
-
-.etichette{
-    font-size: 10px;
-    padding: 5px;
-    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 100;
 }
 
 .allineamento{
     margin-bottom: 10px;
 }
 
-.listaNo{
-    border: 1px solid red;
-    border-radius: 50%;
-    color:red;
-    font-size: 15px;
+
+.etichette{
+    font-size: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
 }
 
 .blu{
     background-color: blue;
+}
+
+.viola{
+    background-color: purple;
+}
+
+.verde{
+    background-color: green;
+}
+
+.arancione{
+    background-color: orangered;
+}
+.violetto{
+    background-color:violet;
+}
+
+.verdino{
+    background-color: greenyellow;
 }
